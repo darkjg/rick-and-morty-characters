@@ -75,7 +75,17 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+li{
+  margin: 2%;
+  padding: 1%;
+  border: rgb(232, 232, 232) 2px solid;
+  border-radius: 2%;
 }
 
-
-
+strong{
+  font-weight: bold;
+}
